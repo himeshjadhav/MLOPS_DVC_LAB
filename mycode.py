@@ -6,10 +6,10 @@ os.makedirs("data", exist_ok=True)
 
 # Dataset
 data = {
-    "ID": [1, 2, 3, 4, 5, 6],
-    "Name": ["Rahul", "Priya", "Amit", "Sneha", "Rohan", "Karan"],
-    "Age": [21, 22, 20, 23, 21, 22],
-    "Score": [85, 92, 78, 88, 95, 89]
+    "ID": [1, 2, 3, 4, 5, 6, 7],
+    "Name": ["Rahul", "Priya", "Amit", "Sneha", "Rohan", "Karan", "Neha"],
+    "Age": [21, 22, 20, 23, 21, 22, 24],
+    "Score": [85, 92, 78, 88, 95, 89, 91]
 }
 
 # Create DataFrame
@@ -21,5 +21,6 @@ df.to_csv(file_path, index=False)
 
 print("CSV file created successfully!")
 print(f"Location: {file_path}")
+
 print("\nDataset:")
 print(df)
