@@ -6,10 +6,10 @@ os.makedirs("data", exist_ok=True)
 
 # Dataset
 data = {
-    "ID": [1, 2, 3, 4, 5, 6, 7],
-    "Name": ["Rahul", "Priya", "Amit", "Sneha", "Rohan", "Karan", "Neha"],
-    "Age": [21, 22, 20, 23, 21, 22, 24],
-    "Score": [85, 92, 78, 88, 95, 89, 91]
+    "ID": [1, 2, 3, 4, 5, 6, 7, 8],
+"Name": ["Rahul", "Priya", "Amit", "Sneha", "Rohan", "Karan", "Neha", "Vikas"],
+"Age": [21, 22, 20, 23, 21, 22, 24, 25],
+"Score": [85, 92, 78, 88, 95, 89, 91, 87]
 }
 
 # Create DataFrame
